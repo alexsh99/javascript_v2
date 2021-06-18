@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="form.css">
+    <title>FORM</title>
+</head>
+<body>
+<form action="#" class="form" id="form">
+    <div class="form-element">
+        <label for="name">Имя</label>
+        <div>
+            <input type="text" id="name" name="name">
+            <small class="invisible">Одно слово только буквы a-z и/или а-я</small>
+        </div>
+    </div>
+
+    <div class="form-element">
+        <label for="tel">Телефон</label>
+        <div>
+            <input type="text" id="tel" name="tel">
+            <small class="invisible">Телефон в формате +7(000)000-0000</small>
+        </div>
+
+    </div>
+    <div class="form-element">
+        <label for="mail">E-mail</label>
+        <div>
+            <input type="text" id="mail" name="mail">
+            <small class="invisible">Неверный e-mail адрес</small>
+        </div>
+    </div>
+    <div class="form-element">
+        <label for="text">Текст:</label>
+        <div>
+            <textarea name="text" id="text" cols="30" rows="10"></textarea>
+        </div>
+    </div>
+    <button type="submit">Отправить</button>
+</form>
+<script src="js/form.js"></script>
+</body>
+</html>

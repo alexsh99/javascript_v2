@@ -1,0 +1,39 @@
+.form {
+    width: 500px;
+    margin: 20px auto;
+    border: black 1px solid;
+    padding: 20px;
+}
+
+.form-element {
+    margin: 5px;
+}
+
+.form-element div {
+    display: inline-block;
+    width: 70%;
+}
+
+.form-element label{
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+.form-element input, .form-element textarea{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.invalid {
+    border-color: red;
+}
+
+.help_block {
+    display: inline;
+    color: red;
+}
+
+.invisible {
+    display: none;
+}
